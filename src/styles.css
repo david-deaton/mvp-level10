@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient(180deg, #0a102c, #1a0856);
+  color: rgb(255, 255, 255);
+  line-height: 1.8em;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+button{
+  display:inline-block;
+  padding:0.5em 3em;
+  border:0.16em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:400;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.15s;
+  background-color: transparent;
+  }
+  button:hover{
+  color:#DDDDDD;
+  border-color:#DDDDDD;
+  background-color: transparent;
+  }
+  button:active{
+  color:#BBBBBB;
+  border-color:#BBBBBB;
+  background-color: transparent;
+  }
+
+
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.level10Title, .getStartedButton {
+  color: white;
+  font-size: 30px;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* font-style: italic; */
+}
+
+.bubbles input[type="radio"] {
+  display: none;
+}
+
+.bubbles {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: color 5000ms;
+  font-size: 30px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  height: 200px;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  transition: 5000ms;
+  font-style: italic;
+
+}
+
+.parentChart {
+  display: flex;
+  width: 2000px;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+
+.childChart {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestions {
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.submitSection {
+  display: flex;
+  height: 100px;
+  flex-direction: column;
+  font-size: 35px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+/* a.button2{
+  display:inline-block;
+  padding:0.5em 3em;
+  border:0.16em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:'Roboto',sans-serif;
+  font-weight:400;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.15s;
+  }
+  a.button2:hover{
+  color:#DDDDDD;
+  border-color:#DDDDDD;
+  }
+  a.button2:active{
+  color:#BBBBBB;
+  border-color:#BBBBBB;
+  } */
+  /* @media all and (max-width:30em){
+
+  a.button2{
+  display:block;
+  margin:0.4em auto;
+   }
+} */
