@@ -32,9 +32,12 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    extensions: ['css', '...'] // spread operator doesn't overrride defaults
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "index.html"),
     }),
-  ],
+  ]
 }
